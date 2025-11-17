@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# 模型文件（通常很大，不适合上传）
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+model/
+llama-protein-7b/
+llama/
+xTrimoPGLM/
+re_llama/
+
+# 数据文件
+data/
+results/
+*.csv
+*.json
+*.txt
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+ProteinMPNN/
+Mol-Instructions/
